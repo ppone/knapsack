@@ -2,7 +2,7 @@ Knapsack
 ========
 
 Implementation of the knapsack problem in various languages (currently Ruby), which will print out all the solutions.
-![screenshot](../../raw/master/knapsack.png)
+![screenshot](https://github.com/ppone/knapsack/raw/master/knapsack.png)
 
 Create Our Buckets
 ==================
