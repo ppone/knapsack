@@ -1,0 +1,33 @@
+class Bucket
+def initialize(s,w)
+@s=s
+@w=w
+end
+end
+
+
+def knapsack(v,n,c)
+m=[]
+s=[]
+for i in 0.upto
+    m << []
+    s << []
+    m[i][0] = 0
+end
+for i in 1.upto(n)
+         m[0][i] = 0
+end
+for i in 1.upto(n)
+   for j in 1.upto(c)
+   if jv[i].s <= j && (m[i-1][j]  > m[i-1][c-j] + v[i-1].w
+                             m[i][j] = m[i-1][j-] + v[i+1].m
+                             s[i][j]= 1
+           elif  j <= c && (m[i-1][j]  = m[i-1][c-j] + v[i-1].w
+	   	   m[i][j] = m[i-1][j]
+		   	     s[i][j] = 2
+          else
+		  m[i][j] = m[i-1][j]
+		  	    s[i][j] = 0
+         end
+end
+end

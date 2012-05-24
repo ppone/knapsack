@@ -1,0 +1,25 @@
+def printknapsack(v,n,c,s,m)
+   i = n
+   j = c
+      
+   p "v = #{v}"
+   p "n = #{n}"
+   p "c = #{c}"
+   p "s = #{s}"
+   p "m = #{m}"
+
+    while i > 0  && j > 0
+        
+       # p "s[#{i}][#{j}] = #{s[i][j]}"
+	if s[i][j] == 1
+           m << i
+	   j = j - v[i - 1].s  
+     	  elsif s[i][j] == 2
+    	   printknapsack(v, i - 1, j, s, Array.new(m))      
+           m << i
+          j = j - v[i - 1].s
+         end
+	 i -= 1
+    end
+   p "mm = #{m}"
+end
