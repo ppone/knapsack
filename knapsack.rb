@@ -1,4 +1,5 @@
 #@author: Parag Patel
+#Prints out all solutions to the Knapsack problem
 
 class Bucket
       attr_accessor :s,:w
