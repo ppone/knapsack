@@ -2,7 +2,8 @@ Knapsack
 ========
 
 Implementation of the knapsack problem in various languages (currently Ruby), which will print out all the solutions.
-![screenshot](https://github.com/ppone/knapsack/raw/master/knapsack.png)
+
+![screenshot](http://image.made-in-china.com/4f0j00NvPaQEmnbpcW/Knapsack.jpg)
 
 Create Our Buckets
 ==================
@@ -28,4 +29,6 @@ knapsack(v,v.size,23)
 "max size = 13"
 "Solution = [1, 2, 3]"
 ```
-
+Pseudocode
+==================
+![screenshot](https://github.com/ppone/knapsack/raw/master/knapsack.png)
