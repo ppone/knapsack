@@ -1,9 +1,8 @@
 Knapsack
 ========
 
-Implementation of the knapsack problem in various languages based on this pseduo code.
+Implementation of the knapsack problem in various languages (currently Ruby), which will print out all the solutions.
 
-![pte](knapsack.jpg "Title is optional") 
 
 Create Our Buckets
 ==================
