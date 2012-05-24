@@ -4,6 +4,8 @@ Knapsack
 Implementation of the knapsack problem in various languages (currently Ruby), which will print out all the solutions.
 
 
+![screenshot](http://image.made-in-china.com/4f0j00NvPaQEmnbpcW/Knapsack.jpg)
+
 Create Our Buckets
 ==================
 
