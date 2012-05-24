@@ -3,6 +3,8 @@ Knapsack
 
 Implementation of the knapsack problem in various languages based on this pseduo code.
 
+![picture alt](knapsack.png "Title is optional") 
+
 Create Our Buckets
 ==================
 
