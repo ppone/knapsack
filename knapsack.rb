@@ -1,3 +1,5 @@
+#@author: Parag Patel
+
 class Bucket
       attr_accessor :s,:w
       def initialize(w,s)
